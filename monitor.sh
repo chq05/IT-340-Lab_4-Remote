@@ -1,6 +1,7 @@
 #!/bin/bash
-# Log the date and memory usage
+#Log the date and memory usage
 
-echo "Memory Log - $(date)" >> system_log.txt
-free -h | grep Mem >> system_log.txt
-echo "--------------------------------" >> system_log.txt
+echo "Memory Log - $(date)" >> /home/cquinde/Lab_4/system_log.txt
+free -h | grep Mem >> /home/cquinde/Lab_4/system_log.txt
+echo "--------------------------------" >> /home/cquinde/Lab_4/system_log.txt
+
